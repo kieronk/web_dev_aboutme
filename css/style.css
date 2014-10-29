@@ -184,16 +184,22 @@ ol, ul {
 
 /* end of grid */ 
 
-/* design aid */
+/* general styles */
 
 body {
-    background-color: #6CBBF0;
+    background-color: #fff;
 }
 
 section, article, footer, h1, h2, h3, ul, li, a, p {
     border: 1px solid brown;
 }
 
+.nine-col, .six-col {
+   border: 3px solid darkgrey; 
+  border-radius: 5px;
+  background-color: #fff;
+
+}
 /* styles */
 
 /* NAV BAR */ 
@@ -210,6 +216,10 @@ section, article, footer, h1, h2, h3, ul, li, a, p {
   float: right;
   display: inline;
   margin-top: 1em;
+  background-color: #FFB400;
+  border-radius: 10px;
+  border: 3px solid grey;
+  color: black;
 }
 
 #top-navigation li {
@@ -223,7 +233,7 @@ section, article, footer, h1, h2, h3, ul, li, a, p {
 }
 
 #top-navigation #links .active {
-    color: blue;
+    color: black;
     font-weight: 500;
 }
 
@@ -277,12 +287,10 @@ h2 {
 #aboutsection {
   margin: 1.5em;
   display: inline-block;
+  background-color: #;
+
 }
 
-#about {
-  margin-left: 4em;
-  
-}
 
 h3 {
   font-size: 1.5em;
@@ -292,21 +300,14 @@ h3 {
 
 #kkphoto {
   background-image: url(images/kkphoto.jpg);
- /*
-  max-width: 30%; 
-  max-height: 15%;
-  float: right;
-  border: 3px solid white; 
-  border-radius: 50%; */
-
-height: auto;
-padding-top: 10%;
-width: 15%;
-border: 3px solid white;
--webkit-border-radius: 50%;
--moz-border-radius: 50%;
-border-radius: 50%;
-}
+  height: auto;
+  padding-top: 10%;
+  width: 15%;
+  border: 3px solid white;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  }
 
 /* END OF ABOUT ME */ 
 
@@ -314,6 +315,8 @@ border-radius: 50%;
 
 #skills {
   margin: 1.5em auto;
+
+  
 }
 
 .skillbox {
@@ -341,6 +344,9 @@ border-radius: 50%;
 /* END OF PORTFOLIO SECTION */ 
 
 /* START OF CONTACT ME SECTION */ 
+
+#contact {
+}
 
 .contactbuttons {
   margin: 3em auto;
