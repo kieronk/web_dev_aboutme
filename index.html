@@ -8,59 +8,66 @@
 </head>
 <body>
 	<header>
-		<nav class="nav">
-			<a href=""><img src="css/images/logo.jpg" width="50px" height="50px"></a>
-			<a href="#about">About</a>
-			<a href="#skills">Skills</a>
-			<a href="#portfolio">Portfolio</a>
-			<a href="#contact">Contact</a>			
+		<nav class="eleven-col" id="top-navigation">
+				<ul class="three-col" id="links">
+					<li><a href="#about">About</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact</a></li>	
+				</ul>
+				<a href=""><img class="logo" src="css/images/logo.jpg" width="50px" height="50px"></a>		
 		</nav>	
-		<section class="eleven-col">
-				<div class="masthead"> 
-					<h1>Kieron Kirkland</h1>
-					<h2>Web Paduan</h2>
-				</div>
+		<section class="eleven-col" id="masthead">
+			<hgroup class="six-col" id="headings">
+				<h1>Kieron Kirkland</h1>
+				<h2>Web Paduan</h2>
+			</hgroup>
 		</section>
 	</header>
 
 	<section class="main_content"> <!-- main content -->
-			<section class="about">
-				<article class="six-col">  <!-- about kieron text-->
+			<section class="nine-col" id="aboutsection">
+				<article class="six-col" id="about">  <!-- about kieron text-->
 					<h3>About Kieron</h3>
-					<p class="text">Kieron Kirkland is a novice coder.  But he's not novice at tech.  He can do a great talk, like really, he knows all the words.  But his skills aren't quite there yet.  However, with the helpful of thinkful and his mentor J, he's developing strong CSS and HTML abilities. He also has a lot of previous experience with user research and hardware development.  So why not hire him, he'll take ages, it will be a bit rough, but it'll be filthy cheap.</p> 
+					<p class="text">Kieron Kirkland is a novice coder.  But he's not novice at tech.  He can do a great talk, like really, he knows all the words.  But his skills aren't quite there yet.  However, with the helpful of thinkful and his mentor Justin, he's developing CSS and HTML abilities. He also has a lot of previous experience with user research and hardware development.  So why not hire him, he'll take ages, it will be rubbish, but it'll be filthy cheap.</p> 
+				</article> 
 					<a name="#about"></a> 
-				<figure class="three-col"> <!-- picture of me--> 
-					<img src="css/images/kk_photo.jpg" width="10%" height="10%"> 
+				<figure class="three-col" id="kkphoto"> <!-- picture of me--> 
 					<figcaption>Kieron Kirkland</figcaption>
 				</figure>
-			</section> 
-			<section class="nine-col">
-				<section class="skills"> <!-- skill blocks-->
-					<a name="#skills"></a>
-						<div>HTML &amp; CSS <img src=""></div><a href="mailto:kieronkirkland@gmail.com" class="contact_small">Contact me</a>
-						<div>Hardware<img src=""></div><a href="mailto:kieronkirkland@gmail.com" class="contact_small">Contact me</a>
-						<div>User Research<img src=""></div><a href="mailto:kieronkirkland@gmail.com" class="contact_small">Contact me</a>	
-				</section>		
 			</section>
-			<section class="nine-col">
-				<section class="portfolio"> <!-- portfolio-->
+			
+			<section class="nine-col" id="skills"> <!-- skill blocks-->
+					<a name="#skills"></a>
+						<div class="three-col" id="skillbox"><img src="">HTML &amp; CSS <a href="mailto:kieronkirkland@gmail.com" class="contact_small">Contact me</a>
+						</div>
+
+						<div class="three-col" id="skillbox"><img src="">Hardware<a href="mailto:kieronkirkland@gmail.com" class="contact_small">Contact me</a>
+						</div>
+						
+						<div class="three-col" id="skillbox"><img src="">User Research<a href="mailto:kieronkirkland@gmail.com" class="contact_small">Contact me</a>	
+						</div>
+
+			</section>
+			<section class="nine-col" id="portfolio"> <!-- portfolio-->
 					<h3><a name="#portfolio">Portfolio</a></h3> 
-					<figure><img src="css/images/talk.jpg" width="10%" height="10%" class="talk">
+					<figure class="talkimage"><img src="css/images/talk.jpg" width="10%" height="10%">
 					<figcaption></figcaption>
 					</figure>
 					<p>Names of companies, kk has done lots</p>
-				</section>
 			</section>
 	</section> <!-- end of main content -->
 
 	<footer class="nine-col" id="contact"> <!-- contact me-->
 		<a name="#contact"></a>
-			<a href="">Git<i class="fa fa-github"></i></a>
-			<a href="">Twitter<i class="fa fa-twitter"></i></a>
-			<a href="">Email<i class="fa fa-envelope"></i></a>
-			<a href="">Phone<i class="fa fa-phone"></i></a>
+			<ul class="contactbuttons">
+				<li class="contactbutton"><a href="">Git<i class="fa fa-github"></i></a></li>
+				<li class="contactbutton"><a href="">Twitter<i class="fa fa-twitter" class="contactbutton"></i></a></li>
+				<li class="contactbutton"><a href="">Email<i class="fa fa-envelope" class="contactbutton"></i></a></li>
+				<li class="contactbutton"><a href="">Phone<i class="fa fa-phone" class="contactbutton"></i></a></li>
+			</ul>
 	</footer>
-	<section>&copy;</section>
+	
 
 
 	
