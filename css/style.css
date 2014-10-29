@@ -187,7 +187,7 @@ ol, ul {
 /* design aid */
 
 body {
-    background-color: LightGray;
+    background-color: #6CBBF0;
 }
 
 section, article, footer, h1, h2, h3, ul, li, a, p {
@@ -240,28 +240,34 @@ a {
 
 /* MASTHEAD */
 
+body {
+  text-align: center;
+}
+
+
 #masthead {
   background-image: url(images/penguins.jpg);
   background-size: cover;
   height: 25em;
-  margin: 3em auto;
   text-align: center;
 }
 
-hgroup {
+#headings {
   margin: 10em auto;
   height: 20em;
-  text-align: center;
- }
+  display: inline-block;
+} 
 
 h1 {
   font-size: 3em;
   font-weight: bold;
+  display: inline-block;
 }
 
 h2 {
   font-size: 1.5em;
   margin: 0 auto;
+  display: inline-block;
 }
 
 /* END OF MASTHEAD */ 
@@ -269,11 +275,13 @@ h2 {
 /* ABOUT ME */ 
 
 #aboutsection {
-  margin: 1.5em auto;
+  margin: 1.5em;
+  display: inline-block;
 }
 
 #about {
   margin-left: 4em;
+  
 }
 
 h3 {
@@ -281,12 +289,23 @@ h3 {
   text-align: center;
 }
 
+
 #kkphoto {
   background-image: url(images/kkphoto.jpg);
-  height: 10em;
-  max-width: 100%; 
+ /*
+  max-width: 30%; 
+  max-height: 15%;
   float: right;
-  border: 3px; 
+  border: 3px solid white; 
+  border-radius: 50%; */
+
+height: auto;
+padding-top: 10%;
+width: 15%;
+border: 3px solid white;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
 }
 
 /* END OF ABOUT ME */ 
@@ -310,11 +329,13 @@ h3 {
 #portfolio {
   margin: 1.5em auto;
   display: inline;
+
 }
 
 .talkimage {
   display: inline;
 }
+
 
 
 /* END OF PORTFOLIO SECTION */ 
