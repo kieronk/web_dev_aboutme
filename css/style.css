@@ -195,7 +195,7 @@ section, article, footer, h1, h2, h3, ul, li, a, p {
     border: 1px solid brown;
 }
 
-.nine-col, .six-col {
+.nine-col, .six-col, .three-col {
   border: 3px solid #757575; 
   border-radius: 5px;
   background-color: #fff;
@@ -205,6 +205,9 @@ h1, h2, h3 {
   font-family: 'Carter One', cursive;
 }
 
+a:hover {
+  background-color: #757575;
+}
 /* styles */
 
 /* NAV BAR */ 
@@ -244,15 +247,18 @@ h1, h2, h3 {
     font-weight: 500;
 }
 
-#top-navigation #links li:hover {
-    cursor: pointer;
-    color: #333333;
-}
 
 #links a {
   text-decoration: none;
   color: #fff;
 }
+
+#links a:hover {
+  cursor: pointer;
+  background-color: #757575;
+}
+
+
 
 /* END OF NAV BAR */ 
 
@@ -269,6 +275,7 @@ body {
   height: 25em;
   text-align: center;
   margin: 2em auto;
+  background-position: 30% 30%;
 }
 
 #headings {
@@ -296,8 +303,7 @@ h2 {
 
 #about {
   margin: 2em auto;
-  border: none;
-  height: 15em;
+  height: 13.5em;
 }
 
 h3 {
@@ -307,6 +313,19 @@ h3 {
 
 }
 
+#photo {
+  border-radius: 5px;
+  display: inline-block;
+  margin: 2em auto;
+  height: 13.5em;
+}
+
+.kjkphoto {
+  width: 100%; 
+}
+
+
+/*
 #kkphoto {
   background-image: url(images/kkphoto.jpg);
   height: auto;
@@ -320,6 +339,7 @@ h3 {
   display: inline;
   }
 
+*/
 /* END OF ABOUT ME */ 
 
 /* SKILLS SECTION */ 
@@ -352,6 +372,12 @@ h3 {
   padding-top: -10em;
 }
 
+#skillbox a {
+  margin: 1em auto;
+  display: block;
+  text-decoration: none;
+  color: white;
+}
 
 
 /* END OF SKILLS SECTION */ 
@@ -373,6 +399,11 @@ h3 {
   margin: 1em 1em;
 } 
 
+#portfolio a {
+  text-decoration: none;
+  color: #757580;
+}
+
 /* END OF PORTFOLIO SECTION */ 
 
 /* START OF CONTACT ME SECTION */ 
@@ -381,6 +412,7 @@ h3 {
   margin: 2em auto;
   background-color: #fff;
   border: 3px solid #757575;
+  border-radius: 5px;
 }
 
 
@@ -394,12 +426,27 @@ h3 {
 #contact a {
   margin: 1em auto;
   display: block;
+  text-decoration: none;
+  color: white;
 }
 
 #contactbuttons {
   border: 3px solid #FF7F24;
   border-radius: 2px;
   margin: 1em 1em;
+}
+
+.contact_small {
+  border: 2px solid #757575;
+  border-radius: 5px;
+  background-color: #000;
+}
+
+#contact_buttons a {
+  margin: 1em auto;
+  display: block;
+  text-decoration: none;
+  color: white;
 }
 
 
