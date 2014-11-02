@@ -294,24 +294,18 @@ h2 {
 
 /* ABOUT ME */ 
 
-#aboutsection {
-  margin: 2em auto;
-  display: inline-block;
-  background-color: #;
-  height: 15em;
-}
-
 #about {
   margin: 2em auto;
   border: none;
+  height: 15em;
 }
 
 h3 {
   font-size: 1.5em;
   text-align: center;
   margin-bottom: 1em;
-}
 
+}
 
 #kkphoto {
   background-image: url(images/kkphoto.jpg);
@@ -322,7 +316,8 @@ h3 {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  margin: 0.5em auto;
+  margin: 0em 3em;
+  display: inline;
   }
 
 /* END OF ABOUT ME */ 
