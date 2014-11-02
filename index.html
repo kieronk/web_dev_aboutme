@@ -5,6 +5,8 @@
 	<title>Kieron Kirkland web developer</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" href="css/font-awesome-4.2.0/css/font-awesome.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Carter+One' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<header class="header">
@@ -15,7 +17,7 @@
 					<li><a href="#portfolio">Portfolio</a></li>
 					<li><a href="#contact">Contact</a></li>	
 				</ul>
-				<a href=""><img class="logo" src="css/images/logo.jpg" width="50px" height="50px"></a>		
+				<a href=""><img class="logo" src="css/images/shiftkey.jpg" width="50px" height="50px"></a>		
 		</nav>	
 		<section class="eleven-col" id="masthead">
 			<hgroup class="six-col" id="headings">
@@ -39,37 +41,59 @@
 			
 			<section class="nine-col" id="skills"> <!-- skill blocks-->
 					<a name="#skills"></a>
-						<div class="three-col" id="skillbox"><img src="">HTML &amp; CSS <a href="mailto:kieronkirkland@gmail.com" class="contact_small">Contact me</a>
+						<div class="three-col" id="skillbox">
+							<i class="fa fa-code" id="code"></i>
+							<p>HTML &amp; CSS</p>
+							<a href="mailto:kieronkirkland@gmail.com" class="contact_small">Contact me</a>
 						</div>
 
-						<div class="three-col" id="skillbox"><img src="">Hardware<a href="mailto:kieronkirkland@gmail.com" class="contact_small">Contact me</a>
+						<div class="three-col" id="skillbox">
+							<i class="fa fa-wrench"></i>
+							<p>Hardware</p>
+							<a href="mailto:kieronkirkland@gmail.com" class="contact_small">Contact me</a>
 						</div>
 						
-						<div class="three-col" id="skillbox"><img src="">User Research<a href="mailto:kieronkirkland@gmail.com" class="contact_small">Contact me</a>	
+						<div class="three-col" id="skillbox">
+							<i class="fa fa-smile-o"></i>
+							<p>User Research</p>
+							<a href="mailto:kieronkirkland@gmail.com" class="contact_small">Contact me</a>	
 						</div>
 
 			</section>
 			<section class="nine-col" id="portfolio"> <!-- portfolio-->
 					<h3><a name="#portfolio">Portfolio</a></h3> 
-					<figure class="talkimage"><img class="testimage" src="css/images/talk.jpg" width="10%" height="10%">
+					<figure class="talkimage"><img class="testimage" src="css/images/talk.jpg" width="20%" height="20%">
 					<figcaption></figcaption>
 					</figure> 
-					<p>Names of companies, kk has done lots</p>
+					<p class="portfolio_text">Names of companies, kk has done lots</p>
 			</section>
 	</section> <!-- end of main content -->
 
-	<footer class="nine-col" id="contact"> <!-- contact me-->
-		<a name="#contact"></a>
-			<ul class="contactbuttons">
-				<li class="contactbutton"><a href="">Git<i class="fa fa-github"></i></a></li>
-				<li class="contactbutton"><a href="">Twitter<i class="fa fa-twitter" class="contactbutton"></i></a></li>
-				<li class="contactbutton"><a href="">Email<i class="fa fa-envelope" class="contactbutton"></i></a></li>
-				<li class="contactbutton"><a href="">Phone<i class="fa fa-phone" class="contactbutton"></i></a></li>
-			</ul>
+	<footer class="eleven-col" id="contact"> <!-- contact me-->
+						
+						<a name="#contact"></a>
+							
+						<div class="two-col" id="contactbuttons">
+							<i class="fa fa-github" id="github"></i>
+							<a href="http://www.github.com/kieronk" class="contact_small">See my Github</a>
+						</div>
+
+						<div class="two-col" id="contactbuttons">
+							<i class="fa fa-twitter" id="twitter"></i>
+							<a href="http://www.twitter.com/kieronkirkland" class="contact_small">Tweet me</a>
+						</div>
+
+						<div class="two-col" id="contactbuttons">
+							<i class="fa fa-envelope"></i>
+							<a href="mailto:kieronkirkland@gmail.com" class="contact_small">Email me</a>
+						</div>
+						
+						<div class="two-col" id="contactbuttons">
+							<i class="fa fa-google-plus-square"></i>
+							<a href="https://plus.google.com/+KieronKirkland/about" class="contact_small">Google + me</a>	
+						</div>
 	</footer>
 	
-
-
 	
 </body>
 </html>
